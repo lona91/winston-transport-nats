@@ -4,6 +4,7 @@
     npm i --save winston-transport-nats
     
 ## Usage
+```javascript
     const {createLogger} = require("winston")
 
     const Logger = createLogger({
@@ -11,6 +12,7 @@
           new NATSTransporter(options)
         ]
     });
+```
     
 ## Options
 For options view NATS package options (https://www.npmjs.com/package/nats) plus
